@@ -6,10 +6,11 @@ import {
   Text,
   ScrollView,
    TouchableOpacity,
+   Image
 } from 'react-native';
 import styles from '../styles/blindstyle'
 const BlindPreview = ({ jsonData }) => {
-
+    const img = require("../images/close.png")
 
   return (
     
@@ -21,7 +22,7 @@ const BlindPreview = ({ jsonData }) => {
          {/* Header row */}
          <Text style={[styles.title]}>Blind Structure</Text>
          <TouchableOpacity onPress={() => console.log('Button pressed')} style={styles.Button}>
-          <Text style={[styles.buttonclose]}>x</Text>
+         <Image source = {img} style={styles.buttonclose}/>
         </TouchableOpacity>
       <View style={styles.tableRow}>
         

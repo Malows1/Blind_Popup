@@ -2,20 +2,20 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   buttonclose: {
-    fontSize: 30,
-    width: 20,
-
-    color: '#FFF',
+    width: 50, // Example width
+    height: 40, // Example height
+    tintColor:'#fff'
   },
   Button: {
-    height: 30,
-    top: -40,
-    left: 330,
+    
+    top: -30,
+    left: 340,
   },
   tableContainer: {
     maxHeight: 340,
   },
   title: {
+    top: 10,
     fontSize: 20,
     fontWeight: 'bold',
     color: '#fff',
