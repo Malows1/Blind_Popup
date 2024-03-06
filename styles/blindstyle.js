@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
   },
   title: {
     top: 10,
-    fontSize: 20,
+    fontSize: 22,
     fontWeight: 'bold',
     color: '#fff',
     textAlign: 'center',
@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     position: 'relative',
   },
   bodybg: {
-    backgroundColor: 'white',
+    backgroundColor: '#fff',
     height: '100%',
 
     alignItems: 'center', // Align items horizontally
@@ -33,15 +33,15 @@ const styles = StyleSheet.create({
     top: 170,
     width: 390,
     height: 470,
-    backgroundColor: '#191C5F',
-    borderWidth: 1,
-    borderColor: 'black',
+    backgroundColor: '#0C103E',
+  
+ 
     borderRadius: 10,
   },
 
   tableRow: {
     flexDirection: 'row',
-    backgroundColor: '#383C71',
+    backgroundColor: '#232652',
     position: 'relative',
     width: 330,
     left: 30,
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
 
   headerCell: {
     fontWeight: 'bold',
-    backgroundColor: '#1D1C4D',
+    backgroundColor: '#16193E',
   },
 
   evenCell: {
