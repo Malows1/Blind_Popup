@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     top: 170,
     width: 390,
     height: 470,
-    backgroundColor: '#252452',
+    backgroundColor: '#191C5F',
     borderWidth: 1,
     borderColor: 'black',
     borderRadius: 10,
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
 
   tableRow: {
     flexDirection: 'row',
-    backgroundColor: '#474675',
+    backgroundColor: '#383C71',
     position: 'relative',
     width: 330,
     left: 30,
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
   },
 
   evenCell: {
-    backgroundColor: '#312F5F',
+    backgroundColor: '#303362',
   },
 });
 export default styles;
